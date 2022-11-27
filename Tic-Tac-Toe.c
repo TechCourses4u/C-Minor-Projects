@@ -85,7 +85,7 @@ int winCheck() {
 
 void print_result(int score){
 	if(score==1) {
-        if(player==2){
+        if(player==1){
             printf("\n\n\t%s Wins!\n\n",player1);
             getchar();
         }
